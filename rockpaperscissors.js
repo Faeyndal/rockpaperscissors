@@ -38,12 +38,12 @@ function getHumanChoice () {
 function playRound (humanChoice, computerChoice) {
     //check who wins the round
 
+
+    //Increase the winner's score
 }
 
 
-getComputerChoice();
-getHumanChoice();
+const computerSelection = getComputerChoice();
+const humanSelection = getHumanChoice();
 
-
-console.log(humanChoice);
-console.log(computerChoice);
+playRound(humanSelection, computerSelection);
