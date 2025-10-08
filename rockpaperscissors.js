@@ -2,6 +2,8 @@
 
 //Create a variable for the computer to play the game
 let computerChoice = "blank";
+//Create a variable for the player
+let humanChoice = "blank";
 //Function for the computer's choice of option
 function getComputerChoice () {
     //Create a variable to store a random number between 1-3
@@ -21,6 +23,16 @@ function getComputerChoice () {
     return computerChoice;
 }
 
-getComputerChoice();
+//Function for the player's choice
+function getHumanChoice () {
+    humanChoice = prompt("Choose one : rock, paper, scissors", "");
 
+    return humanChoice;
+}
+
+getComputerChoice();
+getHumanChoice();
+
+
+console.log(humanChoice);
 console.log(computerChoice);
