@@ -29,16 +29,21 @@ function getComputerChoice () {
 
 //Function for the player's choice
 function getHumanChoice () {
-    humanChoice = prompt("Choose one : rock, paper, scissors", "");
-
+    let humanInput = prompt("Choose one : rock, paper, scissors", "");
+    humanChoice = humanInput.toLowerCase();
     return humanChoice;
 }
 
+//function for each round of the game
+function playRound (humanChoice, computerChoice) {
+    //check who wins the round
 
+}
 
 
 getComputerChoice();
 getHumanChoice();
+
 
 console.log(humanChoice);
 console.log(computerChoice);
